@@ -1,0 +1,35 @@
+.qrCard {
+  background-color: var(--bg-secondary);
+  max-width: 32rem;
+  padding: 1.6rem;
+  border-radius: 2rem;
+  letter-spacing: 1.2px;
+  line-height: 20px;
+}
+
+.qrImage {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  margin-bottom: 2.4rem;
+}
+
+.qrCard h1 {
+  color: var(--text-navy-blue);
+  font-weight: 700;
+  font-size: 1.7rem;
+  margin-bottom: 1.6rem;
+}
+
+.qrCard p {
+  color: var(--text-grey);
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin-bottom: 2.8rem;
+}
+
+.content {
+  max-width: 25.6rem;
+  text-align: center;
+  margin: 0 auto;
+}

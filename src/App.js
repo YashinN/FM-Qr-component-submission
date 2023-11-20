@@ -1,7 +1,12 @@
-import "./App.css";
+import Main from "./components/Main";
+import QrCard from "./components/QrCard";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <Main>
+      <QrCard />
+    </Main>
+  );
 }
 
 export default App;
